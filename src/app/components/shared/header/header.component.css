@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 4.375rem;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: .8rem;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.left__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left__header > a > img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.left__header > p {
+    margin-left: 1rem;
+}
+
+.left__header > p::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    vertical-align: top;
+    background-image: url(../../../../assets/images/dropdown.png);
+    background-size: contain;
+    margin-left: .2rem;
+    margin-top: .2rem;
+}
+
+.left__header > p:hover::after {
+    background-image: url(../../../../assets/images/menos.png);
+}
+
+.right__header > .search__bar {
+    height: 1.6rem;
+    border: #eff0f2 solid .15rem;
+    border-radius: .3rem;
+    font-weight: bold;
+    background-image: url(../../../../assets/images/go-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    background-size: 1rem;
+    background-color: #f6f7f7;
+}
+
+::-webkit-input-placeholder {
+    color: #000000;
+ }
+
+.right__header > a {
+    margin-left: .3rem;
+    padding: .3rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.right__header > .signup__button {
+    border: #eff0f2 solid .15rem;
+    border-radius: .3rem;
+}
