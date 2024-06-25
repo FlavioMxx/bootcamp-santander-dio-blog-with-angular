@@ -1,16 +1,16 @@
 .title {
     padding: 0 10rem;
-    height: 13rem;
+    height: 10rem;
 }
 
 .title > h1 {
     margin: 0;
-    font-size: 131px;
+    font-size: 90px;
     justify-content: center;
     display: flex;
 }
 
 .title > hr {
     height: 5px;
-    background-color: black;
+    background-color: #000000;
 }
