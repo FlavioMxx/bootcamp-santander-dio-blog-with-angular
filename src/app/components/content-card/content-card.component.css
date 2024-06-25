@@ -1,0 +1,25 @@
+.cards__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content {
+    width: 95%;
+    height: 330px;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    -webkit-box-shadow: -2px -1px 16px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 16px -11px rgba(0,0,0,0.75);
+    box-shadow: -2px -1px 16px -11px rgba(0,0,0,0.75);
+}
+
+.card__image > img, .card__title > h2 {
+    width: 100%;
+}
+
+.card__image > img {
+    border-radius: .3rem;
+    height: 150px;
+}
