@@ -7,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  sections: string[] = [
+    "Engineering", 
+    "Product",
+    "Security",
+    "Open Source",
+    "Enterprise",
+    "Policy",
+    "Education",
+    "Community",
+    "Company"   
+  ];
+
   constructor() { }
 
   ngOnInit(): void {

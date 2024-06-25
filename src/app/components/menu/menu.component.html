@@ -1,1 +1,14 @@
-<p>menu works!</p>
+<div class="menu__container">
+
+    <div class="left__menu">
+        <a class="menu__link" href="#" *ngFor="let sections of sections"><p> {{ sections }} </p></a>
+    </div>
+
+    <div class="right__menu">
+        <input class="search__menu" type="text" placeholder="search">
+    </div>
+
+</div>
+
+<hr class="line__menu">
+
