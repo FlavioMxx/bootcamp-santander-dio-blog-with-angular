@@ -8,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 
   sections: string[] = [
-    "Engineering", 
-    "Product",
-    "Security",
-    "Open Source",
-    "Enterprise",
-    "Policy",
-    "Education",
-    "Community",
-    "Company"   
+    "ENGINEERING", 
+    "JAVA",
+    "SPRINGBOOT",
+    "UNITARY TESTES",
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "TYPESCRIPT",
+    "ANGULAR"   
   ];
 
   constructor() { }
@@ -24,4 +24,8 @@ export class MenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  navigateTo(option: string): void {
+    console.log(`Navigating to ${option}`);
+    // Implement your navigation logic here
+  }
 }

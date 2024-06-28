@@ -1,0 +1,18 @@
+.container_cards_section {
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+   
+    justify-content: space-between;
+}
+
+.container__principal__section, .container__section {
+    width: 49%;
+    max-width: 49%;
+    max-height: 100%;
+}
+
+.container__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

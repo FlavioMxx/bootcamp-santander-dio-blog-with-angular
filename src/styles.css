@@ -4,3 +4,8 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+    width: 80vw;
+    margin: auto;
+}
+

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-principal-content-card',
@@ -6,9 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./principal-content-card.component.css']
 })
 export class PrincipalContentCardComponent implements OnInit {
-  image: string = "../../../assets/images/retrato-de-um-astronauta-em-fato-espacial-fazendo-uma-atividade-comum-ao-ar-livre.jpg";
-  subject: string = "Astrology";
-  title: string = "New planet is being studied with the possibility of water";
+  @Input()
+  image: string = "https://t4.ftcdn.net/jpg/04/73/25/49/360_F_473254957_bxG9yf4ly7OBO5I0O5KABlN930GwaMQz.jpg";
+  @Input()
+  subject: string = "Loading...";
+  @Input()
+  title: string = "Loading...";
 
   constructor() { }
 

@@ -6,13 +6,17 @@
     font-weight: bold;
     font-size: .8rem;
     align-items: center;
-    padding: 0 10rem;
 }
 
 .left__header {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.left__header > p > a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .left__header > a > img {
@@ -25,20 +29,56 @@
     margin-left: 1rem;
 }
 
-.left__header > p::after {
+.linkedin::after {
     content: '';
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
     vertical-align: top;
-    background-image: url(../../../../assets/images/dropdown.png);
+    background-image: url(https://img.icons8.com/?size=50&id=8808&format=png);
     background-size: contain;
     margin-left: .2rem;
-    margin-top: .2rem;
+    margin-top: .1rem;
+}
+
+.hackerrank::after {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    vertical-align: top;
+    background-image: url(https://www.svgrepo.com/show/306171/hackerrank.svg);
+    background-size: contain;
+    margin-left: .2rem;
+    margin-top: .1rem;
+}
+
+.dio::after {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    vertical-align: top;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQKaRiLOhlUOqck-hD635m4uwz7JvENSgcg&s);
+    background-size: contain;
+    margin-left: .2rem;
+    margin-top: .1rem;
+}
+
+.github::after {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    vertical-align: top;
+    background-image: url(https://img.icons8.com/?size=50&id=12599&format=png);
+    background-size: contain;
+    margin-left: .2rem;
+    margin-top: .1rem;
 }
 
 .left__header > p:hover::after {
-    background-image: url(../../../../assets/images/menos.png);
+    background-image: url(https://www.svgrepo.com/show/111566/like.svg);
 }
 
 .right__header > .search__bar {

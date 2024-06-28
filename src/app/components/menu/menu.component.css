@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 10rem;
     padding-top: .1rem;
     align-items: center;
 }
@@ -43,8 +42,4 @@
     text-align: end;
     margin-left: 1.6rem;
     background-color: #ffffff;
- }
-
- .line__menu {
-    margin: 0 10rem;
  }

@@ -8,6 +8,8 @@ import { TitleMenuComponent } from './components/title-menu/title-menu.component
 import { MenuComponent } from './components/menu/menu.component';
 import { ContentCardComponent } from './components/content-card/content-card.component';
 import { PrincipalContentCardComponent } from './components/principal-content-card/principal-content-card.component';
+import { HomeComponent } from './pages/home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -17,10 +19,11 @@ import { PrincipalContentCardComponent } from './components/principal-content-ca
     MenuComponent,
     ContentCardComponent,
     PrincipalContentCardComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
