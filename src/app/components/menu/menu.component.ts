@@ -11,7 +11,7 @@ export class MenuComponent implements OnInit {
     "ENGINEERING", 
     "JAVA",
     "SPRINGBOOT",
-    "UNITARY TESTES",
+    "UNITARY TESTS",
     "HTML",
     "CSS",
     "JAVASCRIPT",
