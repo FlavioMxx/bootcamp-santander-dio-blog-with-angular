@@ -13,7 +13,7 @@
     text-justify: distribute;
     margin: 0;
     white-space: nowrap;
-    font-size: 130px;
+    font-size: 120px;
 }
 
 @media (max-width: 1255px) {
